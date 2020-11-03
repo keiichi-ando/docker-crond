@@ -1,0 +1,9 @@
+version: "3"
+services:
+  cron:
+    container_name: crond-container
+    build: ./cron
+    volumes:
+      - ./volume/:/var/log:rw
+    environment:
+      TZ: Asia/Tokyo

@@ -1,0 +1,14 @@
+{
+  "name": "chibasite-dev",
+
+  "dockerComposeFile": ["../docker-compose.yml"],
+
+  "service": "cron",
+
+  "workspaceFolder": "/",
+
+  "extensions": [
+  ],
+  "settings": {
+  }
+}
